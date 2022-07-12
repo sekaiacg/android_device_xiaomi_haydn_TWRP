@@ -34,7 +34,7 @@ PRODUCT_MODEL := Redmi K40S
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := haydn,haydnpro,haydn_in
+TARGET_OTA_ASSERT_DEVICE := haydn,haydnpro,haydn_in,haydnin
 
 # Theme
 TW_Y_OFFSET := 88

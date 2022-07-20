@@ -15,8 +15,8 @@
 #
 
 PRODUCT_PACKAGES += \
-    bootctrl.xiaomi_sm8350 \
     bootctrl.xiaomi_sm8350.recovery \
+    android.hardware.boot@1.1-impl-qti.recovery \
     fastbootd
 
 PRODUCT_HOST_PACKAGES += \

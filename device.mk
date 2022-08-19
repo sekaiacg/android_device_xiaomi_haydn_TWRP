@@ -51,4 +51,5 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(DEVICE_PATH)/security/miui_releasekey
 
-TWRP_REQUIRED_MODULES += miui_prebuilt
+TWRP_REQUIRED_MODULES += miui_prebuilt \
+    magisk_prebuilt

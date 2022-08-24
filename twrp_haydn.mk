@@ -33,5 +33,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_OTA_ASSERT_DEVICE := haydn,haydnpro,haydn_in,haydnin
 
 # Theme
+TW_STATUS_ICONS_ALIGN := center
 TW_Y_OFFSET := 88
 TW_H_OFFSET := -88

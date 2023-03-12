@@ -53,3 +53,7 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 TWRP_REQUIRED_MODULES += miui_prebuilt \
     magisk_prebuilt
+
+ifneq ($(TW_SKKK_VER_CODE),)
+PRODUCT_PROPERTY_OVERRIDES += ro.twrp.version.skkk.code=$(TW_SKKK_VER_CODE)
+endif

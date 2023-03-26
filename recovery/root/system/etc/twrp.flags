@@ -33,4 +33,4 @@
 /modem_img             emmc    /dev/block/bootdevice/by-name/modem                                flags=backup=1;display="Modem";slotselect;flashimg=1
 
 # Removable storage
-/usb_otg               auto    /dev/block/sdg1                            /dev/block/sdg          flags=fsflags=utf8;display="USB-OTG";storage;wipeingui;removable
+/usb_otg               auto    /dev/block/sdg1                            /dev/block/sdg4         flags=fsflags=utf8;display="USB-OTG";storage;wipeingui;removable
